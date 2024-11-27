@@ -1,0 +1,21 @@
+meta {
+  name: Withdraw
+  type: http
+  seq: 4
+}
+
+post {
+  url: https://localhost:7510/api/account/1234/withdraw
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "amount": 234.24
+  }
+}
+
+body:text {
+  1234.23
+}

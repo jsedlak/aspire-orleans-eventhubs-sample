@@ -1,0 +1,36 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35507.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansEventHubsSamples.AppHost", "OrleansEventHubsSamples.AppHost\OrleansEventHubsSamples.AppHost.csproj", "{B0400E48-1C3C-4D30-BBBA-D140D54ADDEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansEventHubsSamples.ServiceDefaults", "OrleansEventHubsSamples.ServiceDefaults\OrleansEventHubsSamples.ServiceDefaults.csproj", "{144A200D-619E-11D4-41AF-7E29AB14BC8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrleansEventHubsSamples.ApiService", "OrleansEventHubsSamples.ApiService\OrleansEventHubsSamples.ApiService.csproj", "{525781DE-C9E9-B3CC-8C2D-499CE4E164C2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0400E48-1C3C-4D30-BBBA-D140D54ADDEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0400E48-1C3C-4D30-BBBA-D140D54ADDEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0400E48-1C3C-4D30-BBBA-D140D54ADDEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0400E48-1C3C-4D30-BBBA-D140D54ADDEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{144A200D-619E-11D4-41AF-7E29AB14BC8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{144A200D-619E-11D4-41AF-7E29AB14BC8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{144A200D-619E-11D4-41AF-7E29AB14BC8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{144A200D-619E-11D4-41AF-7E29AB14BC8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{525781DE-C9E9-B3CC-8C2D-499CE4E164C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{525781DE-C9E9-B3CC-8C2D-499CE4E164C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{525781DE-C9E9-B3CC-8C2D-499CE4E164C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{525781DE-C9E9-B3CC-8C2D-499CE4E164C2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E2118AA8-85CA-4658-8F13-F33A8EBE4A2B}
+	EndGlobalSection
+EndGlobal
